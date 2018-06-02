@@ -5,6 +5,8 @@ output: html_document
 
 ---
 
+# Deceptive version of Vox's gun violence charts
+
 This is the documentation for the creation of a deceptive data product, taking the same data as used in developing the various charts in Vox’s article on the gun violence problem in America (Lopez, 2018). Here, I have created three different visuals in an attempt to find out or display some findings in an interesting, non-trivial, and somewhat unexpected fashion. All three visuals are charts created using Tableau, labeled as Deceptive data product - 1, 2 and 3 and accessible here - https://public.tableau.com/profile/neville.fernandes#!/. The making of the three visuals is detailed below.
 
 
