@@ -1,0 +1,17 @@
+
+
+# Revised versions of Redesign and Deceptive data products
+
+### Redesign data product
+
+<iframe src="https://public.tableau.com/profile/neville.fernandes#!/vizhome/Redesign-Revisedversion/Story1?:embed=y&:display_count=yes"
+ width="645" height="955"></iframe>  
+  
+### Deceptive data product
+
+<iframe src="https://public.tableau.com/profile/neville.fernandes#!/vizhome/Redesign-Deceptiveversion/Story1?:embed=y&:display_count=yes"
+ width="645" height="955"></iframe>  
+ 
+ 
+ 
+ 
