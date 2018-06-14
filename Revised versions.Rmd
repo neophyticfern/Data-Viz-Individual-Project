@@ -1,16 +1,27 @@
 
 
-# Revised versions of Redesign and Deceptive data products
+# Individual Project - Revised versions of Redesign and Deceptive data products  
+Neville Fernandes
 
-### Redesign data product
+## Redesign data product  
 
-<iframe src="https://public.tableau.com/profile/neville.fernandes#!/vizhome/Redesign-Revisedversion/Story1?:embed=y&:display_count=yes"
- width="645" height="955"></iframe>  
+The revised version of the redesign product can be accessed [here](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Redesign-Revisedversion/Story1).
+
+### 1. Comparison of gun deaths between US and rest of the world
+The data for this visual was taken from [this spreadsheet](https://docs.google.com/spreadsheets/d/1chqUZHuY6cXYrRYkuE0uwXisGaYvr7durZHJhpLGycs/) created by Simon Rogers of the Guardian (Rogers, 2012). 
+
+### 2. Effect of gun control on gun deaths
+This is a redesign of visual #8 in the Vox article - States with tighter gun control laws have fewer gun-related deaths. The data for this visual was taken from [here](https://www.kff.org/other/state-indicator/firearms-death-rate-per-100000/?currentTimeframe=0&sortModel=%7B"colId":"Location","sort":"asc"%7D). 
+
+### 3. Suicides make up gun deaths more than homicides do
+This is a redesign of visual #10 - Most gun deaths are suicides. The data for this was sourced from the [CDC website](https://webappa.cdc.gov/sasweb/ncipc/mortrate10_us.html).
+
   
-### Deceptive data product
+## Deceptive data product  
 
-<iframe src="https://public.tableau.com/profile/neville.fernandes#!/vizhome/Redesign-Deceptiveversion/Story1?:embed=y&:display_count=yes"
- width="645" height="955"></iframe>  
+This is the documentation for the creation of a deceptive data product, taking the same data as used in developing the various charts in Vox’s article on the gun violence problem in America (Lopez, 2018). Here, I have created three different visuals in Tableau which display interesting, non-trivial, and somewhat unexpected findings. All three visuals are charts created using Tableau, labeled as [Redesign - Deceptive version](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Redesign-Deceptiveversion/Story2). The three visuals from the original version are available [here](https://public.tableau.com/profile/neville.fernandes#!/) labeled as [Ind. project - Deceptive data product 1](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Ind_Project-Deceptivedataproduct-1/Story1), [2](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Ind_Project-Deceptivedataproduct-2/Story2) and [3](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Ind_Project-Deceptivedataproduct-3/Story3) respectively. The making of the three visuals is detailed below.  
+
+
  
  
  
