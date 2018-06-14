@@ -1,11 +1,24 @@
 
 
-# Individual Project - Revised versions of Redesign and Deceptive data products  
+# Documentation and Making-of: Revised versions of Redesign and Deceptive data products  
+
 Neville Fernandes
+
+## Problem Statement  
+The topic of gun violence is quite polarizing and the debate around it, intense for almost any person in the United States. A big reason why this is the case is because violence perpetrated with guns has many different causes, but the consequences are the same for the victims, perpetrators, community, industry and the psyche of the nation as a whole. There are a lot of variables involved in the process of buying guns, gun-related violence and outcomes in curbing that with gun control. All of this, combined with the attitudes among the pro-gun owndership towards guns and what it means within the realm of citizen rights, makes it very difficult to analyze the various gun-related statistics out there and arrive at a single, overarching conclusion.  
+
+Research on gun-related topics is hard to come by, and performing gun control research in particular is legislatively incentivised against. I had previously summarized some of the literature on the topic in my [earlier problem statement](https://github.com/neophyticfern/Data-Viz-Individual-Project). The important points to note are - 
+* The 1996 Dickey Amendment passed by Congress and 2011 restriction on NIH effectively witholding funds on gun control research from the CDC and NIH (H.R. 3610, 1997) (H.R. 2055, 2012)
+* Reduced gun availability is correlated with reduced number of gun suicides and mass shootings (Leigh & Neill, 2010) (Rodríguez Andrés & Hempstead, 2011)
+* Nevetheless, people desire guns and procure them for self-defense, among other things (Kleck & Gertz, 1995)  
+
+The 17-chart article by Vox on gun violence in America attempts to convince the audience that tighter gun control laws and reduced gun ownership can lead to reduced homicides, suicides and mass shootings and that there seems to be a slight majority in favor of some gun control policies in America (Lopez, 2018)). Obviously, the article is geared towards a readership that is educated, left-leaning and pro-gun control, the assumption of which leads to oversight and confirmation bias on the part of both the creator and consumer of these visuals. But it has a number of technical flaws as well - charts that could be better designed to drive home the point better, lack of consistency across all visuals, confusing use of color and space (data-pixel ratio) and stretching the accuracy of claims. I also felt that the large number of visuals lenghtens the article adversely by making it more difficult to assimilate the information cohesively. 
+
+I picked visuals #1 & #2 (combined), #8 and #10 from the article for the redesign data product, and #1 & #6 (combined), #2 & #6 (combined) and #13 for the deceptive data product. My goal was to adjust the data-pizel ratio, reduce undue use of color and make it to drive home specific points, repurpose the evidence from the source and adhere to the argumentation model. I have also combined some of the charts in both of data products to save the audience the time and attention to assimilate the message, as I felt that the points that the original charts were trying to make were similar.
 
 ## Redesign data product  
 
-The revised version of the redesign product can be accessed [here](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Redesign-Revisedversion/Story1).
+I have created three different visuals in Tableau which display interesting, non-trivial, and somewhat unexpected findings. All three visuals are charts created using Tableau, labeled as [Redesign - Revised version](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Redesign-Revisedversion/Story1). The three visuals from the original version are available [here](https://public.tableau.com/profile/neville.fernandes#!/) labeled as [Vox individual project - Insight 1-a](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Voxindividualproject-Insight1-a/Story1), [Insight 1-b](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Gunownership-deaths/Story2), [Insight 2](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Voxindividualproject-Insight2/Story1) and [Insight 3](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Voxindividualproject-Insight3/Story1) respectively. The making of the three visuals is detailed below.  
 
 ### 1. Comparison of gun deaths between US and rest of the world
 The data for this visual was taken from [this spreadsheet](https://docs.google.com/spreadsheets/d/1chqUZHuY6cXYrRYkuE0uwXisGaYvr7durZHJhpLGycs/) created by Simon Rogers of the Guardian (Rogers, 2012). 
@@ -19,7 +32,7 @@ This is a redesign of visual #10 - Most gun deaths are suicides. The data for th
   
 ## Deceptive data product  
 
-This is the documentation for the creation of a deceptive data product, taking the same data as used in developing the various charts in Vox’s article on the gun violence problem in America (Lopez, 2018). Here, I have created three different visuals in Tableau which display interesting, non-trivial, and somewhat unexpected findings. All three visuals are charts created using Tableau, labeled as [Redesign - Deceptive version](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Redesign-Deceptiveversion/Story2). The three visuals from the original version are available [here](https://public.tableau.com/profile/neville.fernandes#!/) labeled as [Ind. project - Deceptive data product 1](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Ind_Project-Deceptivedataproduct-1/Story1), [2](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Ind_Project-Deceptivedataproduct-2/Story2) and [3](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Ind_Project-Deceptivedataproduct-3/Story3) respectively. The making of the three visuals is detailed below.  
+I have created three different visuals in Tableau which display interesting, non-trivial, and somewhat unexpected findings. All three visuals are charts created using Tableau, labeled as [Redesign - Deceptive version](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Redesign-Deceptiveversion/Story2) (excuse the confusing label - I intended to label it as 'Revised - Deceptive version'). The three visuals from the original version are available [here](https://public.tableau.com/profile/neville.fernandes#!/) labeled as [Ind. project - Deceptive data product 1](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Ind_Project-Deceptivedataproduct-1/Story1), [2](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Ind_Project-Deceptivedataproduct-2/Story2) and [3](https://public.tableau.com/profile/neville.fernandes#!/vizhome/Ind_Project-Deceptivedataproduct-3/Story3) respectively. The making of the three visuals is detailed below.  
 
 ### 1. More guns result in fewer deaths from guns  
 The data for this chart was sourced from an article from the Guardian on gun homicides and gun ownership across the world (Chalabi, 2012). The link to the data is [here](https://docs.google.com/spreadsheets/d/1chqUZHuY6cXYrRYkuE0uwXisGaYvr7durZHJhpLGycs/edit#gid=0). Here we plotted the Homicides by firearm rate (per 100,000 people) with the Average firearms rate (per 100 people) and added a trendline to show how the homicide rate is correlated to the rate of firearm ownership. The Average firearms rate was added to the 'Column' field and Homicides by firearm rate was added to the 'Row' field (SUM was applied to both measures). The countries were selected based on a certain high-level of income, but intentionally so as to tilt the reference line to show a negative correlation between homicide rate and firearms rate. Additionally, the United States data point was annotated as well, to show the location with respect to the trend line and the rest of the data.  
@@ -46,8 +59,9 @@ Alpers, Philip, & Rosetti, Amelie. (2018). _Guns in Australia: Firearm Imports (
 Australian Bureau of Statistics. (2017). _Causes of Death, Australia, 2016._ Canberra, Australia. Retrieved from the [Australian Bureau of Statistics](http://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/3303.02016?OpenDocument).  
 Chalabi, Mona. (2012). _Gun homicides and gun ownership listed by country._ Accessed 12 June 2018 at [The Guardian](https://www.theguardian.com/news/datablog/2012/jul/22/gun-homicides-ownership-world-list).  
 Lopez, German. (2018). _America's unique gun violence problem, explained in 17 maps and charts._ Accessed 12 June 2018 at [Vox](https://www.vox.com/policy-and-politics/2017/10/2/16399418/us-gun-violence-statistics-maps-charts).
-
- 
- 
- 
- 
+https://www.sciencemag.org/news/2017/09/nih-quietly-shelves-gun-research-program. (2017, September). Retrieved from Science.
+Kleck, G., & Gertz, M. (1995). Armed Resistance to Crime: The Prevalence and Nature of Self-Defense with a Gun. Journal of Criminal Law and Criminology, 86(1), 150-187.
+Leigh, A., & Neill, C. (2010). Do Gun Buybacks Save Lives? Evidence from Panel Data. American Law and Economics Review, 12(2), 509-557.
+Rodríguez Andrés, A., & Hempstead, K. (2011). Gun control and suicide: The impact of state firearm regulations in the United States, 1995–2004. Health Policy, 101(1), 95-103.
+Stark, D. E., & Shah, N. H. (2017). Funding and Publication of Research on Gun Violence and Other Leading Causes of Death. Journal of the American Medical Association, 917(1), 84-85.
+www.facebook.com/Vox/posts/617292708458335. (2016).
