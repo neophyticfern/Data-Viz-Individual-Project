@@ -23,11 +23,22 @@ I have created three different visuals in Tableau which display interesting, non
 ### 1. Comparison of gun deaths between US and rest of the world
 This is a redesign of chart #1 and #2. The data for this visual was taken from [this spreadsheet](https://docs.google.com/spreadsheets/d/1chqUZHuY6cXYrRYkuE0uwXisGaYvr7durZHJhpLGycs/) created by Simon Rogers of the Guardian (Rogers, 2012). The first version created two charts: the first juxtaposes the rate of firearm ownership with the rate of firearm homicides, between USA and other select OECD countries (plus Argentina & Uruguay), whereas the second juxtaposes the rank of firearm ownership with firearm homicides for USA and other countries with high gun deaths. The attempt here was to showcase that the original Vox charts can easily be manipulated to convey a different message - that USA doesn't have as many deaths, if compared with some other countries in the OECD bracket and that having most of the guns in the world doesn't mean cannot necessarily be correlated with having more gun deaths.
 
+The initial version has two charts, created by using the 'World firearms murders and ownership'. THe first one is a bar chart with _Country/Territory_ as the column and _Average firearms per 100 people_ and _Homicide by firearms rate per 100,000 population_ as the rows, color-coded and filters applied: _Country/Territory_ to select certain OECD countries and _Homicide by firearms rate per 100,000 population_ limited to 38.97. The second one is also a bar chart, this time with _Homicide by firearms rate per 100,000 population_ and _Rank by rate of ownership_ as the rows and similar filters were applied, the difference being that _Homicide by firearms rate per 100,000 population_ was limited to 68.43.  
+
+In the redesigned version, the first chart was combined into one ('Dual axis merge') and the list of countries was kept the same as in Vox's version. 
+
 ### 2. Effect of gun control on gun deaths
 This is a redesign of visual #8 in the Vox article - States with tighter gun control laws have fewer gun-related deaths. The data for this visual was taken from [here](https://www.kff.org/other/state-indicator/firearms-death-rate-per-100000/?currentTimeframe=0&sortModel=%7B"colId":"Location","sort":"asc"%7D). 
 
 ### 3. Suicides make up gun deaths more than homicides do
 This is a redesign of visual #10 - Most gun deaths are suicides. The data for this was sourced from the [CDC website](https://webappa.cdc.gov/sasweb/ncipc/mortrate10_us.html).
+
+The initial version was created from two separate data files 'Total - Firearm' and 'Suicide - Firearm'. I merged the two files in Tableau on the common variable _Year_ from both dataframes. The chart was created by taking _Year_ dimension as a column and _Deaths_ measures from both dataframe as rows, then performing a 'Dual Axis' merging of the two measures. _Measure names_ dimension was added to the 'Marks' to color-code the two trends.  
+
+In the redesigned version, the data used was a single dataframe created by merging the two earlier files with the 'Homicides - Firearm' file (simple merge operation on _Year_ variable performed in R). The chart was created by taking _Year_ dimension as a column and _Deaths_ measures _Cause of Death_ dimension was added to the 'Marks' to simultaneously idetify and color-code the three trends.  
+
+The redesinged version improved on this chart, by also show the trend for deaths resulting from homicides as well. This showed that the firearm suicides have always been more that firearm homicides and that the increase in firearm suicides is what contributes to the increase in total firearm deaths. Thus, it clarifies the original argument and strengthens it at the same time, by sticking striclty to Toulmin's argumentation model, providing more evidence and showing clear use of metrics to answer the question. 
+
 
   
 ## Deceptive data product  
