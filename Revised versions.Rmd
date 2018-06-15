@@ -73,7 +73,7 @@ The redesigned version attempts to improve upon the first version by trying to h
 The data was sourced from the website of the Australian Bureau of Statistics, which covers the various causes of death in Australia (Australian Bureau of Statistics, 2017). The file downloaded is an Excel file attached for Intentional self-harm (Suicide). We used the data from sheet _Table 11.5_, which had the list for deaths by suicide for the year range of 2007-2016, from which the data for All Persons was manually transposed into a CSV file. Thus, we obtained the various categories of suicide as our measures (attributes) and the years as dimensions for our chart. From here, the measure of Firearms and Total were used in the 'Row' field in Tableau and the years were used as the dimension in the 'Column' field. The two measures were then combined in a Dual Axis. 
 The caption covers a fact on rise in gun ownership, which was taken from the website GunPolicy.org (Alpers & Rosetti, 2018).  
 
-In the redesigned version, we attempt to 
+In the redesigned version, we attempt to expand the evidence taken to generate the plot by adding in more information that was previously missing. We added data from the years 1997-2006 to the original chart. This makes our central argument more robust, by protecting it against a rebuttal, while still opposing the argument of the original Vox chart. The drop in total suicides in the middle can thought of as resulting from the decreased ownership from gun buyback, but the number of gun suicides remaining the same rebuts that idea. Also, another set of handguns was outlawed in 2003, but it showed no effect on the number of gun suicides in the years after that. 
 
 ## References  
 
